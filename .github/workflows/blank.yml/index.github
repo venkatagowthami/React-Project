@@ -20,12 +20,12 @@ class MyForm extends React.Component {
   render() {
      const mystyle = {
       color: "white",
-      backgroundColor: "DodgerBlue",
+      backgroundColor: "pink",
       padding: "10px",
       fontFamily: "Arial"
     };
     return (
-      <form  style={{backgroundColor:"pink"}}>
+      <form  style={{backgroundColor:"Dogglerblue"}}>
       <h1   style={{backgroundColor: "lightblue"}}>Welcome to feedback form</h1>
       Enter your UserName:
       <input  style={mystyle}
@@ -84,3 +84,5 @@ index.html
 
   </body>
 </html>
+
+
